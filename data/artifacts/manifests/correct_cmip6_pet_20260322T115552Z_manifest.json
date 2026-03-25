@@ -1,0 +1,41 @@
+{
+  "run_id": "correct_cmip6_pet_20260322T115552Z",
+  "model_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\models\\cmip6_bias_model_pet_20260322T115100Z.joblib",
+  "era5_template_path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\pet\\pet_201412.tif",
+  "future_period": [
+    2026,
+    2050
+  ],
+  "scenarios": {
+    "ssp245": {
+      "status": "ok",
+      "tas_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\tas\\tas_Amon_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn_20260116-20501216.nc",
+      "rsds_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\rsds\\rsds_Amon_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn_20260116-20501216.nc",
+      "huss_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\huss\\huss_Amon_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn_20260116-20501216.nc",
+      "output_dir": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp245\\pet",
+      "months_written": 300,
+      "first_month": "202601",
+      "last_month": "205012"
+    },
+    "ssp370": {
+      "status": "ok",
+      "tas_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\tas\\tas_Amon_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn_20260116-20501216.nc",
+      "rsds_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\rsds\\rsds_Amon_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn_20260116-20501216.nc",
+      "huss_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\huss\\huss_Amon_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn_20260116-20501216.nc",
+      "output_dir": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp370\\pet",
+      "months_written": 300,
+      "first_month": "202601",
+      "last_month": "205012"
+    },
+    "ssp585": {
+      "status": "ok",
+      "tas_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\tas\\tas_Amon_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_20260116-20501216.nc",
+      "rsds_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\rsds\\rsds_Amon_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_20260116-20501216.nc",
+      "huss_nc": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\huss\\huss_Amon_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_20260116-20501216.nc",
+      "output_dir": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp585\\pet",
+      "months_written": 300,
+      "first_month": "202601",
+      "last_month": "205012"
+    }
+  }
+}

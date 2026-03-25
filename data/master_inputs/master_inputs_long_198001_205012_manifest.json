@@ -1,0 +1,41 @@
+{
+  "artifact_type": "master_inputs_long_format_dataset",
+  "artifact_name": "master_inputs_long_198001_205012.parquet",
+  "artifact_path": "C:\\Projects\\Infer RozviDrought\\data\\master_inputs\\master_inputs_long_198001_205012.parquet",
+  "created_utc": "2026-03-24T08:48:03Z",
+  "format": "parquet",
+  "rows": 38957625,
+  "columns": [
+    "scenario",
+    "yyyymm",
+    "pixel_id",
+    "t2m",
+    "d2m",
+    "pet",
+    "sm",
+    "ndvi",
+    "tws"
+  ],
+  "unique_scenario_months": 1455,
+  "unique_pixels": 26775,
+  "scenarios": [
+    "historical",
+    "ssp245",
+    "ssp370",
+    "ssp585"
+  ],
+  "yyyymm_min": "198001",
+  "yyyymm_max": "205012",
+  "variables": [
+    "t2m",
+    "d2m",
+    "pet",
+    "sm",
+    "ndvi",
+    "tws"
+  ],
+  "sidecars": {
+    "manifest_json": "C:\\Projects\\Infer RozviDrought\\data\\master_inputs\\master_inputs_long_198001_205012_manifest.json",
+    "methodology_json": "C:\\Projects\\Infer RozviDrought\\data\\master_inputs\\master_inputs_long_198001_205012_methodology.json"
+  }
+}

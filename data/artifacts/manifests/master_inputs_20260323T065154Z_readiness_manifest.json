@@ -1,0 +1,182 @@
+{
+  "run_id": "master_inputs_20260323T065154Z",
+  "historical": {
+    "t2m": {
+      "tif_months_found": 523,
+      "nc_months_found": 32,
+      "combined_months_found": 555,
+      "missing_months": [],
+      "missing_count": 0
+    },
+    "d2m": {
+      "tif_months_found": 523,
+      "nc_months_found": 32,
+      "combined_months_found": 555,
+      "missing_months": [],
+      "missing_count": 0
+    },
+    "sm": {
+      "tif_months_found": 555,
+      "nc_months_found": 0,
+      "combined_months_found": 555,
+      "missing_months": [],
+      "missing_count": 0
+    },
+    "pet": {
+      "tif_months_found": 523,
+      "nc_months_found": 32,
+      "combined_months_found": 555,
+      "missing_months": [],
+      "missing_count": 0
+    },
+    "ndvi": {
+      "tif_months_found": 534,
+      "nc_months_found": 0,
+      "combined_months_found": 534,
+      "missing_months": [],
+      "missing_count": 0
+    },
+    "tws": {
+      "tif_months_found": 517,
+      "nc_months_found": 0,
+      "combined_months_found": 517,
+      "missing_months": [],
+      "missing_count": 0
+    }
+  },
+  "future": {
+    "ssp245": {
+      "tas": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "d2m": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "sm": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "pet": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "ndvi": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "tws": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      }
+    },
+    "ssp370": {
+      "tas": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "d2m": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "sm": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "pet": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "ndvi": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "tws": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      }
+    },
+    "ssp585": {
+      "tas": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "d2m": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "sm": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "pet": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "ndvi": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      },
+      "tws": {
+        "tif_months_found": 300,
+        "nc_months_found": 0,
+        "combined_months_found": 300,
+        "missing_months": [],
+        "missing_count": 0
+      }
+    }
+  },
+  "status": "READY"
+}

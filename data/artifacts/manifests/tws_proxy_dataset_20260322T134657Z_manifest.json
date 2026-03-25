@@ -1,0 +1,39 @@
+{
+  "run_id": "tws_proxy_dataset_20260322T134657Z",
+  "dataset_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\datasets\\cmip6_tws_proxy_training_dataset_20260322T134524Z.parquet",
+  "rows": 1204000,
+  "columns": [
+    "yyyymm",
+    "pixel_id",
+    "t2m",
+    "d2m",
+    "sm",
+    "pet",
+    "tws_obs"
+  ],
+  "target_variable": "tws_obs",
+  "predictors": [
+    "t2m",
+    "d2m",
+    "sm",
+    "pet"
+  ],
+  "train_period": {
+    "start": "200204",
+    "end": "202409",
+    "months": 215
+  },
+  "gap_periods": {
+    "backcast_start": "198109",
+    "future_end": "205012"
+  },
+  "grid": {
+    "crs": "EPSG:4326",
+    "shape": [
+      70,
+      80
+    ],
+    "pixel_count": 5600
+  },
+  "created_utc": "20260322T134657Z"
+}

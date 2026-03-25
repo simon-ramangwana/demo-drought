@@ -1,0 +1,24 @@
+{
+  "run_id": "train_ndvi_proxy_model_20260322T130508Z",
+  "dataset_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\datasets\\cmip6_ndvi_proxy_training_dataset_20260322T125749Z.parquet",
+  "model_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\models\\ndvi_proxy_model_20260322T130508Z.joblib",
+  "features": [
+    "t2m",
+    "d2m",
+    "sm",
+    "pet"
+  ],
+  "target": "ndvi_obs",
+  "train_rows": 1338091,
+  "valid_rows": 347115,
+  "train_month_start": "200002",
+  "train_month_end": "201912",
+  "valid_month_start": "202101",
+  "valid_month_end": "202602",
+  "train_mae": 0.06384528428316116,
+  "train_rmse": 0.0839043058138176,
+  "train_r2": 0.7228031158447266,
+  "valid_mae": 0.06961651146411896,
+  "valid_rmse": 0.09146819216692022,
+  "valid_r2": 0.7058060169219971
+}

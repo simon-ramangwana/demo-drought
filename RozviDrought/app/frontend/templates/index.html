@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RozviDrought Inference</title>
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""
+    />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            height: 100vh;
+        }
+
+        .sidebar {
+            padding: 16px;
+            border-right: 1px solid #ddd;
+            overflow-y: auto;
+            background: #fafafa;
+        }
+
+        .sidebar h1 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .field {
+            margin-bottom: 12px;
+        }
+
+        .field label {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .field input,
+        .field select,
+        .field button {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .field button {
+            cursor: pointer;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .result-box {
+            margin-top: 16px;
+            padding: 12px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            white-space: pre-wrap;
+            font-size: 13px;
+            overflow-x: auto;
+        }
+
+        .hint {
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="sidebar">
+            <h1>RozviDrought</h1>
+            <div class="hint">
+                Click on the map to choose a point, then run drought inference.
+            </div>
+
+            <div class="field">
+                <label for="lon">Longitude</label>
+                <input id="lon" type="number" step="any" />
+            </div>
+
+            <div class="field">
+                <label for="lat">Latitude</label>
+                <input id="lat" type="number" step="any" />
+            </div>
+
+            <div class="field">
+                <label for="scenario">Scenario</label>
+                <select id="scenario">
+                    <option value="historical">historical</option>
+                    <option value="ssp245">ssp245</option>
+                    <option value="ssp370">ssp370</option>
+                    <option value="ssp585">ssp585</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="yyyymm">YYYYMM</label>
+                <input id="yyyymm" type="text" value="200701" />
+            </div>
+
+            <div class="field">
+                <button id="run-btn">Run inference</button>
+            </div>
+
+            <div class="result-box" id="result">No result yet.</div>
+        </div>
+
+        <div id="map"></div>
+    </div>
+
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""
+    ></script>
+
+    <script>
+        const map = L.map("map").setView([-19.0, 29.5], 6);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            maxZoom: 18,
+            attribution: "&copy; OpenStreetMap contributors"
+        }).addTo(map);
+
+        let marker = null;
+
+        function setPoint(lat, lon) {
+            document.getElementById("lat").value = lat.toFixed(6);
+            document.getElementById("lon").value = lon.toFixed(6);
+
+            if (marker) {
+                marker.setLatLng([lat, lon]);
+            } else {
+                marker = L.marker([lat, lon]).addTo(map);
+            }
+        }
+
+        map.on("click", function (e) {
+            setPoint(e.latlng.lat, e.latlng.lng);
+        });
+
+        async function runInference() {
+            const lon = document.getElementById("lon").value;
+            const lat = document.getElementById("lat").value;
+            const scenario = document.getElementById("scenario").value;
+            const yyyymm = document.getElementById("yyyymm").value;
+            const resultBox = document.getElementById("result");
+
+            if (!lon || !lat || !scenario || !yyyymm) {
+                resultBox.textContent = "Please fill all fields.";
+                return;
+            }
+
+            resultBox.textContent = "Running...";
+
+            const url = `/infer/point?lon=${encodeURIComponent(lon)}&lat=${encodeURIComponent(lat)}&scenario=${encodeURIComponent(scenario)}&yyyymm=${encodeURIComponent(yyyymm)}`;
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (!response.ok) {
+                    resultBox.textContent = JSON.stringify(data, null, 2);
+                    return;
+                }
+
+                resultBox.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultBox.textContent = `Request failed: ${error}`;
+            }
+        }
+
+        document.getElementById("run-btn").addEventListener("click", runInference);
+    </script>
+</body>
+</html>

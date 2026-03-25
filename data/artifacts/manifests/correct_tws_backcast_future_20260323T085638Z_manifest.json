@@ -1,0 +1,41 @@
+{
+  "run_id": "correct_tws_backcast_future_20260323T085638Z",
+  "model_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\models\\tws_proxy_model_20260322T135040Z.joblib",
+  "output_root": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\tws",
+  "template_path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\sm\\sm_198001.tif",
+  "periods": {
+    "backcast": [
+      "198109",
+      "200203"
+    ],
+    "observed": [
+      "200204",
+      "202409"
+    ],
+    "bridge": [
+      "202410",
+      "202512"
+    ],
+    "future": [
+      "202601",
+      "205012"
+    ]
+  },
+  "written": {
+    "backcast_months": 247,
+    "observed_months": 227,
+    "filled_missing_historical_months": 0,
+    "bridge_months": 15,
+    "future_months_by_scenario": {
+      "ssp245": 300,
+      "ssp370": 300,
+      "ssp585": 300
+    }
+  },
+  "notes": {
+    "overwrite_mode": true,
+    "historical_proxy_method": "tws predicted from t2m, d2m, sm, pet using trained proxy model",
+    "observed_method": "observed TWS resampled to ERA5 inference template",
+    "future_method": "tws predicted from future climate inputs by scenario"
+  }
+}

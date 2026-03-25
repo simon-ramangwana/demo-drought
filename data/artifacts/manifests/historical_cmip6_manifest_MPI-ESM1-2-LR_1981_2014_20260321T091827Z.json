@@ -1,0 +1,68 @@
+{
+    "dataset": "cmip6_historical",
+    "model": "MPI-ESM1-2-LR",
+    "period": {
+        "start_year": 1981,
+        "end_year": 2014
+    },
+    "variables": [
+        "tas",
+        "huss",
+        "pr",
+        "mrsos",
+        "rsds"
+    ],
+    "created_utc": "20260321T091827Z",
+    "records": [
+        {
+            "variable": "tas",
+            "file_name": "tas_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "path": "C:\\Projects\\Infer RozviDrought\\data\\historical\\cmip6\\tas\\tas_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "time_steps": 408,
+            "lat_size": 96,
+            "lon_size": 192,
+            "time_start": "1981-01-16T12:00:00.000000000",
+            "time_end": "2014-12-16T12:00:00.000000000"
+        },
+        {
+            "variable": "huss",
+            "file_name": "huss_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "path": "C:\\Projects\\Infer RozviDrought\\data\\historical\\cmip6\\huss\\huss_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "time_steps": 408,
+            "lat_size": 96,
+            "lon_size": 192,
+            "time_start": "1981-01-16T12:00:00.000000000",
+            "time_end": "2014-12-16T12:00:00.000000000"
+        },
+        {
+            "variable": "pr",
+            "file_name": "pr_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "path": "C:\\Projects\\Infer RozviDrought\\data\\historical\\cmip6\\pr\\pr_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "time_steps": 408,
+            "lat_size": 96,
+            "lon_size": 192,
+            "time_start": "1981-01-16T12:00:00.000000000",
+            "time_end": "2014-12-16T12:00:00.000000000"
+        },
+        {
+            "variable": "mrsos",
+            "file_name": "mrsos_Lmon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "path": "C:\\Projects\\Infer RozviDrought\\data\\historical\\cmip6\\mrsos\\mrsos_Lmon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "time_steps": 408,
+            "lat_size": 96,
+            "lon_size": 192,
+            "time_start": "1981-01-16T12:00:00.000000000",
+            "time_end": "2014-12-16T12:00:00.000000000"
+        },
+        {
+            "variable": "rsds",
+            "file_name": "rsds_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "path": "C:\\Projects\\Infer RozviDrought\\data\\historical\\cmip6\\rsds\\rsds_Amon_MPI-ESM1-2-LR_historical_r1i1p1f1_gn_19810116-20141216.nc",
+            "time_steps": 408,
+            "lat_size": 96,
+            "lon_size": 192,
+            "time_start": "1981-01-16T12:00:00.000000000",
+            "time_end": "2014-12-16T12:00:00.000000000"
+        }
+    ]
+}

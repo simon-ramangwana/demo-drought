@@ -1,0 +1,29 @@
+{
+  "run_id": "correct_ndvi_backcast_future_20260322T132549Z",
+  "model_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\models\\ndvi_proxy_model_20260322T130508Z.joblib",
+  "output_root": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\ndvi",
+  "template_path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\t2m\\t2m_201412.tif",
+  "periods": {
+    "backcast": [
+      "198109",
+      "200001"
+    ],
+    "observed": [
+      "200002",
+      "202602"
+    ],
+    "future": [
+      "202603",
+      "205012"
+    ]
+  },
+  "written": {
+    "backcast_months": 221,
+    "observed_months": 313,
+    "future_months_by_scenario": {
+      "ssp245": 298,
+      "ssp370": 298,
+      "ssp585": 298
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "correct_tws_backcast_future_20260322T135851Z",
+  "model_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\models\\tws_proxy_model_20260322T135040Z.joblib",
+  "output_root": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\tws",
+  "template_path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\t2m\\t2m_201412.tif",
+  "periods": {
+    "backcast": [
+      "198109",
+      "200203"
+    ],
+    "observed": [
+      "200204",
+      "202409"
+    ],
+    "future": [
+      "202410",
+      "205012"
+    ]
+  },
+  "written": {
+    "backcast_months": 247,
+    "observed_months": 227,
+    "future_months_by_scenario": {
+      "ssp245": 300,
+      "ssp370": 300,
+      "ssp585": 300
+    }
+  }
+}

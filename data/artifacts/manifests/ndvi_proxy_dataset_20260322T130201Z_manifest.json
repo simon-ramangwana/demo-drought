@@ -1,0 +1,45 @@
+{
+  "run_id": "ndvi_proxy_dataset_20260322T130201Z",
+  "dataset_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\datasets\\cmip6_ndvi_proxy_training_dataset_20260322T125749Z.parquet",
+  "rows": 1685600,
+  "columns": [
+    "yyyymm",
+    "pixel_id",
+    "t2m",
+    "d2m",
+    "sm",
+    "pet",
+    "ndvi_obs"
+  ],
+  "target_variable": "ndvi_obs",
+  "predictors": [
+    "t2m",
+    "d2m",
+    "sm",
+    "pet"
+  ],
+  "train_period": {
+    "start": "200002",
+    "end": "202602",
+    "months": 301
+  },
+  "gap_periods": {
+    "backcast": {
+      "start": "198109",
+      "end": "199912"
+    },
+    "future": {
+      "start": "202603",
+      "end": "205012"
+    }
+  },
+  "grid": {
+    "crs": "EPSG:4326",
+    "shape": [
+      70,
+      80
+    ],
+    "pixel_count": 5600
+  },
+  "created_utc": "20260322T130201Z"
+}

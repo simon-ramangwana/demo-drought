@@ -1,0 +1,18 @@
+{
+  "run_id": "huss_d2m_20260321T113457Z",
+  "type": "huss_nc_inventory",
+  "scenarios": {
+    "ssp245": [
+      "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\huss\\huss_Amon_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn_20260116-20501216.nc",
+      "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\huss\\huss_MPI-ESM1-2-LR_ssp245_2026_2050.nc"
+    ],
+    "ssp370": [
+      "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\huss\\huss_Amon_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn_20260116-20501216.nc",
+      "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\huss\\huss_MPI-ESM1-2-LR_ssp370_2026_2050.nc"
+    ],
+    "ssp585": [
+      "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\huss\\huss_Amon_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_20260116-20501216.nc",
+      "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\huss\\huss_MPI-ESM1-2-LR_ssp585_2026_2050.nc"
+    ]
+  }
+}

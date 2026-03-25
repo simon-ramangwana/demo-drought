@@ -1,0 +1,34 @@
+{
+  "dataset_name": "cmip6_pet_training_dataset_20260322T113428Z.parquet",
+  "dataset_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\datasets\\cmip6_pet_training_dataset_20260322T113428Z.parquet",
+  "created_utc": "20260322T114711Z",
+  "rows": 2240000,
+  "columns": [
+    "yyyymm",
+    "pixel_id",
+    "tas_k",
+    "tas_c",
+    "rsds_wm2",
+    "huss",
+    "pet_proxy",
+    "pet_era5"
+  ],
+  "training_period": {
+    "start": "198109",
+    "end": "201412",
+    "months": 400
+  },
+  "source_variables": [
+    "CMIP6 tas",
+    "CMIP6 rsds",
+    "CMIP6 huss",
+    "ERA5 pet (normalized positive)"
+  ],
+  "grid_reference": {
+    "crs": "EPSG:4326",
+    "shape": [
+      70,
+      80
+    ]
+  }
+}

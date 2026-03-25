@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Large data formats (skip)
+*.tif
+*.tiff
+*.nc
+*.grib
+*.hdf
+*.parquet
+*.zip
+
+# Optional: skip entire heavy folders if needed
+# data/
+rasters/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,174 @@
+{
+    "created_utc": "20260321T083634Z",
+    "project_root": "C:\\Projects\\Infer RozviDrought",
+    "climate_model": "MPI-ESM1-2-LR",
+    "time_span": {
+        "start_year": 2026,
+        "end_year": 2050
+    },
+    "scenarios": [
+        "ssp245",
+        "ssp370",
+        "ssp585"
+    ],
+    "variables": [
+        "tas",
+        "huss",
+        "pr",
+        "mrsos",
+        "rsds"
+    ],
+    "total_files": 15,
+    "files": [
+        {
+            "scenario": "ssp245",
+            "variable": "tas",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "tas_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\tas\\tas_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_size_bytes": 9483309
+        },
+        {
+            "scenario": "ssp245",
+            "variable": "huss",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "huss_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\huss\\huss_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_size_bytes": 10949878
+        },
+        {
+            "scenario": "ssp245",
+            "variable": "pr",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "pr_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\pr\\pr_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_size_bytes": 16533979
+        },
+        {
+            "scenario": "ssp245",
+            "variable": "mrsos",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "mrsos_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\mrsos\\mrsos_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_size_bytes": 5668690
+        },
+        {
+            "scenario": "ssp245",
+            "variable": "rsds",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "rsds_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\rsds\\rsds_MPI-ESM1-2-LR_ssp245_2026_2050.nc",
+            "file_size_bytes": 10903938
+        },
+        {
+            "scenario": "ssp370",
+            "variable": "tas",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "tas_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\tas\\tas_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_size_bytes": 9481962
+        },
+        {
+            "scenario": "ssp370",
+            "variable": "huss",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "huss_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\huss\\huss_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_size_bytes": 10947877
+        },
+        {
+            "scenario": "ssp370",
+            "variable": "pr",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "pr_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\pr\\pr_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_size_bytes": 16542842
+        },
+        {
+            "scenario": "ssp370",
+            "variable": "mrsos",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "mrsos_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\mrsos\\mrsos_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_size_bytes": 5667830
+        },
+        {
+            "scenario": "ssp370",
+            "variable": "rsds",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "rsds_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\rsds\\rsds_MPI-ESM1-2-LR_ssp370_2026_2050.nc",
+            "file_size_bytes": 10902786
+        },
+        {
+            "scenario": "ssp585",
+            "variable": "tas",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "tas_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\tas\\tas_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_size_bytes": 9481672
+        },
+        {
+            "scenario": "ssp585",
+            "variable": "huss",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "huss_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\huss\\huss_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_size_bytes": 10943884
+        },
+        {
+            "scenario": "ssp585",
+            "variable": "pr",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "pr_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\pr\\pr_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_size_bytes": 16538558
+        },
+        {
+            "scenario": "ssp585",
+            "variable": "mrsos",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "mrsos_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\mrsos\\mrsos_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_size_bytes": 5670311
+        },
+        {
+            "scenario": "ssp585",
+            "variable": "rsds",
+            "model": "MPI-ESM1-2-LR",
+            "start_year": 2026,
+            "end_year": 2050,
+            "file_name": "rsds_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_path": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\rsds\\rsds_MPI-ESM1-2-LR_ssp585_2026_2050.nc",
+            "file_size_bytes": 10914104
+        }
+    ]
+}

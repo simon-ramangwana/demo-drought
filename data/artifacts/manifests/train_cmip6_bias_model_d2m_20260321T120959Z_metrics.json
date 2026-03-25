@@ -1,0 +1,21 @@
+{
+  "run_id": "train_cmip6_bias_model_d2m_20260321T120959Z",
+  "dataset_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\datasets\\cmip6_d2m_training_dataset_20260321T115849Z.parquet",
+  "model_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\models\\cmip6_bias_model_d2m_20260321T120959Z.joblib",
+  "features": [
+    "d2m_cmip6"
+  ],
+  "target": "d2m_era5",
+  "train_rows": 1970848,
+  "valid_rows": 268752,
+  "train_month_start": "198109",
+  "train_month_end": "201012",
+  "valid_month_start": "201101",
+  "valid_month_end": "201412",
+  "train_mae": 2.0316224098205566,
+  "train_rmse": 2.56289232553694,
+  "train_r2": 0.7432085275650024,
+  "valid_mae": 2.129338026046753,
+  "valid_rmse": 2.6635423974812062,
+  "valid_r2": 0.7582756876945496
+}

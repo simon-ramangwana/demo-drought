@@ -1,0 +1,24 @@
+{
+  "run_id": "train_tws_proxy_model_20260322T135040Z",
+  "dataset_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\datasets\\cmip6_tws_proxy_training_dataset_20260322T134524Z.parquet",
+  "model_path": "C:\\Projects\\Infer RozviDrought\\data\\artifacts\\models\\tws_proxy_model_20260322T135040Z.joblib",
+  "features": [
+    "t2m",
+    "d2m",
+    "sm",
+    "pet"
+  ],
+  "target": "tws_obs",
+  "train_rows": 951830,
+  "valid_rows": 251955,
+  "train_month_start": "200204",
+  "train_month_end": "201912",
+  "valid_month_start": "202101",
+  "valid_month_end": "202409",
+  "train_mae": 5.3354034423828125,
+  "train_rmse": 7.034660360004258,
+  "train_r2": 0.42207908630371094,
+  "valid_mae": 5.98314094543457,
+  "valid_rmse": 7.721710996225417,
+  "valid_r2": 0.37800776958465576
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "huss_d2m_20260321T113457Z",
+  "era5_d2m_dir": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\d2m",
+  "cmip6_scenarios_dir": "C:\\Projects\\Infer RozviDrought\\data\\scenarios",
+  "historical_period": [
+    1981,
+    2014
+  ],
+  "future_period": [
+    2026,
+    2050
+  ],
+  "era5_d2m_total_months": 523,
+  "era5_d2m_historical_months": 400,
+  "scenarios": {
+    "ssp245": {
+      "huss_dir": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp245\\huss",
+      "huss_total_months": 0,
+      "huss_historical_months": 0,
+      "huss_future_months": 0,
+      "common_historical_months_with_d2m": 0
+    },
+    "ssp370": {
+      "huss_dir": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp370\\huss",
+      "huss_total_months": 0,
+      "huss_historical_months": 0,
+      "huss_future_months": 0,
+      "common_historical_months_with_d2m": 0
+    },
+    "ssp585": {
+      "huss_dir": "C:\\Projects\\Infer RozviDrought\\data\\scenarios\\ssp585\\huss",
+      "huss_total_months": 0,
+      "huss_historical_months": 0,
+      "huss_future_months": 0,
+      "common_historical_months_with_d2m": 0
+    }
+  }
+}

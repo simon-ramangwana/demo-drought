@@ -1,0 +1,79 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="latitude#long_name">latitude</MDI>
+    <MDI key="latitude#standard_name">latitude</MDI>
+    <MDI key="latitude#stored_direction">decreasing</MDI>
+    <MDI key="latitude#units">degrees_north</MDI>
+    <MDI key="latitude#_FillValue">nan</MDI>
+    <MDI key="longitude#long_name">longitude</MDI>
+    <MDI key="longitude#standard_name">longitude</MDI>
+    <MDI key="longitude#units">degrees_east</MDI>
+    <MDI key="longitude#_FillValue">nan</MDI>
+    <MDI key="NC_GLOBAL#Conventions">CF-1.7</MDI>
+    <MDI key="NC_GLOBAL#GRIB_centre">ecmf</MDI>
+    <MDI key="NC_GLOBAL#GRIB_centreDescription">European Centre for Medium-Range Weather Forecasts</MDI>
+    <MDI key="NC_GLOBAL#GRIB_subCentre">0</MDI>
+    <MDI key="NC_GLOBAL#history">2026-03-16T12:54 GRIB to CDM+CF via cfgrib-0.9.15.1/ecCodes-2.42.0 with {"source": "data.grib", "filter_by_keys": {"stream": ["moda"]}, "encode_cf": ["parameter", "time", "geography", "vertical"]}</MDI>
+    <MDI key="NC_GLOBAL#institution">European Centre for Medium-Range Weather Forecasts</MDI>
+    <MDI key="NETCDF_DIM_EXTRA">{valid_time}</MDI>
+    <MDI key="NETCDF_DIM_valid_time_DEF">{1,10}</MDI>
+    <MDI key="NETCDF_DIM_valid_time_VALUES">325987200</MDI>
+    <MDI key="t2m#coordinates">number time latitude longitude expver</MDI>
+    <MDI key="t2m#GRIB_cfName">unknown</MDI>
+    <MDI key="t2m#GRIB_cfVarName">t2m</MDI>
+    <MDI key="t2m#GRIB_dataType">fc</MDI>
+    <MDI key="t2m#GRIB_gridDefinitionDescription">Latitude/Longitude Grid</MDI>
+    <MDI key="t2m#GRIB_gridType">regular_ll</MDI>
+    <MDI key="t2m#GRIB_iDirectionIncrementInDegrees">0.1</MDI>
+    <MDI key="t2m#GRIB_iScansNegatively">0</MDI>
+    <MDI key="t2m#GRIB_jDirectionIncrementInDegrees">0.1</MDI>
+    <MDI key="t2m#GRIB_jPointsAreConsecutive">0</MDI>
+    <MDI key="t2m#GRIB_jScansPositively">0</MDI>
+    <MDI key="t2m#GRIB_latitudeOfFirstGridPointInDegrees">-15.6</MDI>
+    <MDI key="t2m#GRIB_latitudeOfLastGridPointInDegrees">-22.4</MDI>
+    <MDI key="t2m#GRIB_longitudeOfFirstGridPointInDegrees">25.2</MDI>
+    <MDI key="t2m#GRIB_longitudeOfLastGridPointInDegrees">33</MDI>
+    <MDI key="t2m#GRIB_missingValue">3.402823466385289e+38</MDI>
+    <MDI key="t2m#GRIB_name">2 metre temperature</MDI>
+    <MDI key="t2m#GRIB_numberOfPoints">5451</MDI>
+    <MDI key="t2m#GRIB_NV">0</MDI>
+    <MDI key="t2m#GRIB_Nx">79</MDI>
+    <MDI key="t2m#GRIB_Ny">69</MDI>
+    <MDI key="t2m#GRIB_paramId">167</MDI>
+    <MDI key="t2m#GRIB_shortName">2t</MDI>
+    <MDI key="t2m#GRIB_stepUnits">1</MDI>
+    <MDI key="t2m#GRIB_surface">0</MDI>
+    <MDI key="t2m#GRIB_totalNumber">0</MDI>
+    <MDI key="t2m#GRIB_typeOfLevel">surface</MDI>
+    <MDI key="t2m#GRIB_units">K</MDI>
+    <MDI key="t2m#GRIB_uvRelativeToGrid">0</MDI>
+    <MDI key="t2m#long_name">2 metre temperature</MDI>
+    <MDI key="t2m#standard_name">unknown</MDI>
+    <MDI key="t2m#units">K</MDI>
+    <MDI key="t2m#_FillValue">nan</MDI>
+    <MDI key="valid_time#calendar">proleptic_gregorian</MDI>
+    <MDI key="valid_time#long_name">initial time of forecast</MDI>
+    <MDI key="valid_time#standard_name">forecast_reference_time</MDI>
+    <MDI key="valid_time#units">seconds since 1970-01-01</MDI>
+  </Metadata>
+  <Metadata domain="GEOLOCATION">
+    <MDI key="SRS">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</MDI>
+    <MDI key="X_DATASET">NETCDF:"C:\Projects\Infer RozviDrought\data\simulated\era5_land\t2m\t2m_198005.nc":longitude</MDI>
+    <MDI key="X_BAND">1</MDI>
+    <MDI key="Y_DATASET">NETCDF:"C:\Projects\Infer RozviDrought\data\simulated\era5_land\t2m\t2m_198005.nc":latitude</MDI>
+    <MDI key="Y_BAND">1</MDI>
+    <MDI key="PIXEL_OFFSET">0</MDI>
+    <MDI key="PIXEL_STEP">1</MDI>
+    <MDI key="LINE_OFFSET">0</MDI>
+    <MDI key="LINE_STEP">1</MDI>
+    <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">285.77294921875</MDI>
+      <MDI key="STATISTICS_MAXIMUM">297.43310546875</MDI>
+      <MDI key="STATISTICS_MEAN">292.32016962556</MDI>
+      <MDI key="STATISTICS_STDDEV">1.8725850815337</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

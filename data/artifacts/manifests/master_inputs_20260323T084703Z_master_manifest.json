@@ -1,0 +1,157 @@
+{
+  "run_id": "master_inputs_20260323T084703Z",
+  "historical": {
+    "t2m": {
+      "path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\t2m",
+      "months_found": 523,
+      "first_month": "198109",
+      "last_month": "202603"
+    },
+    "d2m": {
+      "path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\d2m",
+      "months_found": 523,
+      "first_month": "198109",
+      "last_month": "202603"
+    },
+    "sm": {
+      "path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\sm",
+      "months_found": 555,
+      "first_month": "198001",
+      "last_month": "202603"
+    },
+    "pet": {
+      "path": "C:\\Projects\\Infer RozviDrought\\data\\simulated\\era5_land\\pet",
+      "months_found": 523,
+      "first_month": "198109",
+      "last_month": "202603"
+    },
+    "ndvi": {
+      "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\ndvi\\historical",
+      "months_found": 534,
+      "first_month": "198109",
+      "last_month": "202602"
+    },
+    "tws": {
+      "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\tws\\historical",
+      "months_found": 517,
+      "first_month": "198109",
+      "last_month": "202409"
+    }
+  },
+  "future": {
+    "ssp245": {
+      "tas": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp245\\tas",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "d2m": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp245\\d2m",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "sm": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp245\\sm",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "pet": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp245\\pet",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "ndvi": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\ndvi\\ssp245",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "tws": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\tws\\ssp245",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      }
+    },
+    "ssp370": {
+      "tas": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp370\\tas",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "d2m": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp370\\d2m",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "sm": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp370\\sm",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "pet": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp370\\pet",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "ndvi": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\ndvi\\ssp370",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "tws": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\tws\\ssp370",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      }
+    },
+    "ssp585": {
+      "tas": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp585\\tas",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "d2m": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp585\\d2m",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "sm": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp585\\sm",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "pet": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\cmip6\\ssp585\\pet",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "ndvi": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\ndvi\\ssp585",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      },
+      "tws": {
+        "path": "C:\\Projects\\Infer RozviDrought\\rasters\\corrected\\proxies\\tws\\ssp585",
+        "months_found": 300,
+        "first_month": "202601",
+        "last_month": "205012"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "dataset_path": "C:\\Projects\\Infer RozviDrought\\data\\master_inputs\\master_inputs_20260323T112832Z.parquet",
+  "created_utc": "20260323T112832Z",
+  "grid": {
+    "height": 70,
+    "width": 80,
+    "pixel_count": 5600,
+    "crs": "EPSG:4326"
+  },
+  "time_range": {
+    "start": "198109",
+    "end": "205012"
+  },
+  "scenarios": [
+    "historical",
+    "ssp245",
+    "ssp370",
+    "ssp585"
+  ],
+  "variables": [
+    "t2m",
+    "d2m",
+    "sm",
+    "pet",
+    "ndvi",
+    "tws"
+  ],
+  "row_count": 8019200,
+  "column_count": 8
+}
